@@ -1,0 +1,78 @@
+1. UPI – Successful Payment
+
+===== PAYMENT GATEWAY =====
+Enter Amount: Rs. 500
+
+Select Payment Method:
+1. UPI
+2. Card
+Enter choice: 1
+
+Enter UPI ID: sai@upi
+Valid UPI ID
+
+Processing payment...
+
+Payment Successful!
+Amount Paid: Rs. 500.00
+Transaction ID: TXN123456
+Status: SUCCESS
+
+===== PAYMENT GATEWAY =====
+Enter Amount: Rs. 750
+
+
+2. UPI – Failed Payment
+
+Select Payment Method:
+1. UPI
+2. Card
+Enter choice: 1
+
+Enter UPI ID: sai@upi
+Valid UPI ID
+
+Processing payment...
+
+Payment Failed! Try again.
+Transaction ID: TXN987654
+Status: FAILED
+
+3. Card – Successful Payment
+
+===== PAYMENT GATEWAY =====
+Enter Amount: Rs. 1200
+
+Select Payment Method:
+1. UPI
+2. Card
+Enter choice: 2
+
+Enter Card Number: 1234567812345678
+Enter CVV: 123
+
+Card details valid
+
+Processing payment...
+
+Payment Successful!
+Amount Paid: Rs. 1200.00
+Transaction ID: TXN456789
+Status: SUCCESS
+
+4. Card – Invalid Details
+
+===== PAYMENT GATEWAY =====
+Enter Amount: Rs. 999
+
+Select Payment Method:
+1. UPI
+2. Card
+Enter choice: 2
+
+Enter Card Number: 12345
+Enter CVV: 12
+
+Invalid Card Details
+Transaction Aborted.
+Status: FAILED
